@@ -133,5 +133,6 @@ return g;
 }
 
 function keyPressed(){
+if(location!=="shop"){
 clicks+=value*multi
-screenShake=cap(screenShake+=5,10)}
+screenShake=cap(screenShake+=5,10)}}
