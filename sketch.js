@@ -66,7 +66,7 @@ multi++;
 locationA=findBox(sprites,"Upgrade2");
 if(mouseX>sprites[locationA][0]-sprites[locationA][2]/2&&mouseX<sprites[locationA][0]+sprites[locationA][2]/2&&mouseY>sprites[locationA][1]-sprites[locationA][3]/2&&mouseY<sprites[locationA][1]+sprites[locationA][3]/2){
 if(auto*auto*50<=clicks){
-clicks-=auto*multi*50
+clicks-=auto*auto*50
 auto++;
 }
 }else{
