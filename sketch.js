@@ -40,7 +40,7 @@ function mousePressed(){
 locationA=findBox(sprites,"ClickingBox");
 if(mouseX>sprites[locationA][0]-sprites[locationA][2]/2&&mouseX<sprites[locationA][0]+sprites[locationA][2]/2&&mouseY>sprites[locationA][1]-sprites[locationA][3]/2&&mouseY<sprites[locationA][1]+sprites[locationA][3]/2){
 clicks+=value*multi
-screenShake=cap(screenShake+=10,100)
+screenShake=cap(screenShake+=5,25)
 }else{
 locationA=findBox(sprites,"shopButton");
 if(mouseX>sprites[locationA][0]-sprites[locationA][2]/2&&mouseX<sprites[locationA][0]+sprites[locationA][2]/2&&mouseY>sprites[locationA][1]-sprites[locationA][3]/2&&mouseY<sprites[locationA][1]+sprites[locationA][3]/2){
@@ -134,4 +134,4 @@ return g;
 
 function keyPressed(){
 clicks+=value*multi
-screenShake=cap(screenShake+=10,100)}
+screenShake=cap(screenShake+=5,25)}
