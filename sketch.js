@@ -29,11 +29,13 @@ sprites=changeText(sprites,35,100,8,"Cost: "+multi*multi*25)
 if(screenShake>0){
 screenShake--
 }
+if(screen!=="shop"){
 if(clock>60&&auto!==1){
 clicks+=Math.round((value*multi*auto)/3);
+screenShake=cap(screenShake+=5,10)
 clock=0;
 }
-clock++
+clock++}
 }
 
 function mousePressed(){
