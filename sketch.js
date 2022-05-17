@@ -133,6 +133,6 @@ return g;
 }
 
 function keyPressed(){
-if(location!=="shop"){
+if(screen!=="shop"){
 clicks+=value*multi
 screenShake=cap(screenShake+=5,10)}}
